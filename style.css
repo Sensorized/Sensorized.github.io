@@ -1,5 +1,6 @@
 :root {
-  --background-color: #FFFBF5;
-  --text-color: #7743DB;
+  background-color: #FFFBF5;
+  text-color: #7743DB;
+  font-family:"Didact Gothic", sans-serif;
 }
 
