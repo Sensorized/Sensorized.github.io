@@ -1,7 +1,10 @@
 :root {
   background-color: #FFFBF5;
+  <! –– #F7EFE5 , #C3ACD0 -->
+}
+
+* {
   text-color: #7743DB;
-  <! –– #F7EFE5 , #C3ACD0 --> 
   font-family:"Didact Gothic", sans-serif;
 }
 
