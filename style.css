@@ -1,6 +1,6 @@
 :root {
-    background-color: #FFFBF5;
-    /*#F7EFE5 , #C3ACD0-->*/
+    background-color: #F7EFE5 ;
+    /*#F7EFE5 , #C3ACD0, #FFFBF5-->*/
   }
   
   * {
@@ -14,8 +14,8 @@
   
   
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Banner.png");
-    height: 60%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Banner.PNG");
+    height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@
   
   .hero-text {
     color: #C3ACD0;
-    text-shadow: 2px 2px 2px #000000; 
+     
     font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -48,16 +48,39 @@
     text-rendering: geometricprecision;
   }
   
-  .About{
-    text-align: center;
-    position: relative;
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+
+  }
+  
+  .about {
+    display: flex;
+    max-width: 100%;
     
   }
 
-  .aboutH{
-    color: #7743DB;
-    text-shadow: 1.5px 1.5px 1.5px #000000;
-
+  .about-pic {
+  flex: 1;
+  max-width: 40%;
+  
   }
 
-  
+
+  .about-pic img {
+  width: 50%;
+  float: left;
+  border-radius: 50%;
+  margin-left: 30%;
+  }
+
+  .about-text {
+    flex: 1;
+    margin-right: 10%;
+    float: right;
+    font-size: medium;
+    color: #7743DB;
+    text-align: left;
+  }
