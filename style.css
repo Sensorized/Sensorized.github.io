@@ -1,5 +1,5 @@
 :root {
-    background-color: #F7EFE5 ;
+    background-color: #f8f0e3 ;
     /*#F7EFE5 , #C3ACD0, #FFFBF5-->*/
   }
   
@@ -15,7 +15,7 @@
   
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Banner.png");
-    height: 90%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,22 +24,24 @@
     margin:0;
   }
   
+ 
+
   .hero-text {
-    color: #C3ACD0;
-     
+    color: beige;
+     line-height: 24px;
     font-size: 32px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 30%;
+    left: 35%;
     transform: translate(-50%, -50%);
   }
   
   button{
+    
     font-size: 24px;
     padding: 10px;
-    
     background-color: #C3ACD0;
     display: inline-block;
     border: 1px solid #7743DB;
@@ -78,9 +80,9 @@
 
   .about-text {
     flex: 1;
-    margin-right: 10%;
+    margin-right:10%;
     float: right;
-    font-size: medium;
+    font-size: 24px;
     color: #7743DB;
     text-align: left;
   }
